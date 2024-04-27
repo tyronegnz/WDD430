@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class="h-screen flex items-center justify-center">
+      <input
+        class="p-3.5 rounded-l-lg"
+        type="text"
+        id="pokemonName"
+        placeholder="Enter Pokemon Name"
+      />
+
+      <button class="p-3 bg-gray-300 hover:bg-black text-white font-bold border-b-4
+       border-black hover:border-gray-300 rounded-r-lg" onclick="fetchData()">Fetch Pokemon</button>
+      <img class=""
+        src=""
+        alt="Pokemon Sprite"
+        id="pokemonSprite"
+        style="display: none"
+      />
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
